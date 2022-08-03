@@ -1,0 +1,180 @@
+body
+{
+    background: white;   /* white, black, red, orange */
+    color: black;         /* red, blue, yellow, etc. */
+    font-size: 25px;       /* 0px - 100px and beyond */
+    font-weight: bolder;  /* lighter, normal, bold */
+    text-align: center;     /* left, center or right */
+    margin-top: 15px;       /* from 0px and upwards */
+    display: block;
+}
+
+.google-logo-and-search
+{
+    display: block;
+
+    margin: 100px auto 0px auto;
+
+    margin-top: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+.trevor-image
+{
+    display: block;
+    width: 250px;
+
+    margin: 10px auto 25px auto;
+
+    margin-top: 10px;
+    margin-bottom: 25px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.search-bar-divs
+{
+    margin: 50px auto;
+}
+
+.search-bar-input
+{
+    display: block;
+    line-height: 24px;
+    width: 400px;
+
+    margin-left: auto;
+    margin-right: auto;
+
+    padding: 10px 30px;
+
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+
+    border:1px solid #dfe1e5;
+    border-radius: 24px;
+}
+
+.search-buttons-wrapper
+{
+    display: flex;
+    
+    justify-content: center;
+}
+
+.google-search-button
+{
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 18px;
+
+    margin-left: 5px;
+    margin-right: 5px;
+
+    background: #dfe1e5;
+    color: #000000;
+
+    border: none;
+    border-radius: 5px; 
+
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 18px;
+    padding-right: 18px;
+}
+
+.feeling-lucky-search-button
+{
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 18px;
+
+    margin-left: 5px;
+    margin-right: 5px;
+
+    background: #dfe1e5;
+    color: #000000;
+
+    border: none;
+    border-radius: 5px;
+
+    padding: 10px 18px;
+
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 18px;
+    padding-right: 18px;
+}
+
+.twitter-following-button
+{
+    font-size: 20px;
+
+    border: 2px solid #cfd9de;
+    border-radius: 50px;
+
+    margin: 0px 5px;
+
+    padding: 10px 20px;
+
+    background: white;
+    color: #0f1419;
+    font-weight: bold;
+}
+
+.example-text-box
+{
+    color: #000000;
+    background: lightblue;
+    width: 500px;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+
+    padding: 20px; /* "Breathing room inside of the <div> card */
+    /* The same thing as writing padding: 20px */
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+
+    /* 
+     * border: for inside the padding, but outside the margin
+     * border-radius: for rounding the corners of the border
+     */
+    border: 8px solid blanchedalmond;
+    border-radius: 30px;
+}
+
+.germany-flag-illustration
+{
+    width: 500px;
+    margin-top: 100px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.germany-black
+{
+    background: black;
+    height: 100px;
+    width: 500px
+}
+
+.germany-red
+{
+    background:darkred;
+    height: 100px;
+    width: 500px;
+}
+
+.germany-yellow
+{
+    background: yellow;
+    height: 100px;
+    width: 500px;
+}

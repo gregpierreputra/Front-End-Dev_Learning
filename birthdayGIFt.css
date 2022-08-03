@@ -1,0 +1,188 @@
+@font-face
+{
+    font-family: HappyMonkey-Regular;
+    src: url(fonts/happy-monkey/HappyMonkey-Regular.ttf);
+}
+
+@keyframes shake
+{
+    0% { transform: translate(1px, 1px) rotate(0deg); }
+    10% { transform: translate(-1px, -2px) rotate(-1deg); }
+    20% { transform: translate(-3px, 0px) rotate(1deg); }
+    30% { transform: translate(3px, 2px) rotate(0deg); }
+    40% { transform: translate(1px, -1px) rotate(1deg); }
+    50% { transform: translate(-1px, 2px) rotate(-1deg); }
+    60% { transform: translate(-3px, 1px) rotate(0deg); }
+    70% { transform: translate(3px, 1px) rotate(-1deg); }
+    80% { transform: translate(-1px, -1px) rotate(1deg); }
+    90% { transform: translate(1px, 2px) rotate(0deg); }
+    100% { transform: translate(1px, -2px) rotate(-1deg); }
+}
+
+body
+{
+    /*
+     * when flex-direction: row
+     * justify-content: controls the X-axis placement of the object
+     * align-items: controls the Y-axis placement of the object
+     *
+     * when flex-direction: column
+     * justify-content: controls the Y-axis placement of the object
+     * align-items: controls the X-axis placement of the object
+     */
+
+    background: #a2d2ff;
+    background-image: linear-gradient(to bottom right, #a2d2ff, #ff99cc);
+
+    margin: 0px auto;
+    
+    text-align: center;
+
+    font-family: 'Happy Monkey', cursive;
+    
+    color: #ffffff;
+}
+
+#init-birthday-message
+{
+    display: flex;
+    flex-direction: column;
+
+    justify-content: start;
+    align-items: center;
+
+    margin: 0px 0px 100px 0px;
+}
+
+.gift-section
+{
+    display: flex;
+    flex-direction: column;
+
+    justify-content: start;
+    align-items: center;
+
+    margin: 100px 0px;
+}
+
+#padding-section
+{
+    display: flex;
+    flex-direction: column;
+
+    justify-content: start;
+    align-items: center;
+
+    margin: 0px 0px 50px 0px;
+}
+
+.gift-cover-image
+{
+    height: 400px;
+    width: 400px;
+
+    margin: 0px auto;
+
+    background-image: url(images/gift-cover.jpg);
+    background-size: cover;
+
+    border: 6px solid #ffffff;
+    border-radius: 10px;
+}
+
+#gift-cover-image-happy:hover
+{
+    background-image: url(images/happy.gif);
+    background-size: cover;
+}
+
+#gift-cover-image-hot:hover
+{
+    background-image: url(images/excited.gif);
+    background-size: cover;
+}
+
+#gift-cover-image-one-word:hover
+{
+    background-image: url(images/amazing.webp);
+    background-size: cover;
+}
+
+#gift-cover-image-badass:hover
+{
+    background-image: url(images/badass.webp);
+    background-size: cover;
+}
+
+#gift-cover-image-cheers
+{
+    height: 200px;
+}
+
+#gift-cover-image-cheers:hover
+{
+    background-image: url(images/amazing.webp);
+    background-size: cover;
+}
+
+h1, h2, h3, h4, p, a
+{
+    color: inherit;
+
+    text-shadow: 0px 0px 4px black;
+}
+
+a
+{
+    text-shadow: 0px 0px 4px black;
+}
+
+#h2-message
+{
+    margin: 0px 0px 10px 0px;
+}
+
+#h3-message
+{
+    margin: 10px 0px 30px 0px;
+}
+
+#footer-message
+{
+    font-style: italic;
+
+    width: 400px;
+    margin: 0px auto;
+}
+
+#birthday-age
+{
+    background: #EFB0C9;
+    border-radius: 5px;
+    
+    text-shadow: 0px 0px 4px black;
+
+    padding: 7px 12px;
+
+    margin: 25px 0px 10px 0px;
+}
+
+#birthday-date
+{
+    background: #EFB0C9;
+    border-radius: 5px;
+
+    text-shadow: 0px 0px 4px black;
+
+    padding: 7px 12px;
+
+    margin: 10px 0px 0px 0px;
+}
+
+#profile-picture
+{
+    width: 350px;
+
+    border: 7px solid #EFB0C9;
+    border-radius: 50%;
+}
